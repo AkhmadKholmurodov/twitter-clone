@@ -47,7 +47,7 @@ export default function Auth() {
           <div className="w-full md:w-[60%]">
             <h2 className="font-bold text-3xl mb-4">Join today.</h2>
             <div className="flex flex-col space-y-2">
-              <Button
+              {/* <Button
                 onClick={() => signIn("google")}
                 label={
                   <div className="flex gap-2 items-center justify-center">
@@ -68,10 +68,10 @@ export default function Auth() {
                 }
                 fullWidth
                 secondary
-              />
+              /> */}
               <div className="flex items-center justify-center">
                 <div className="h-px bg-gray-700 w-1/2" />
-                <p className="mx-4">or</p>
+                {/* <p className="mx-4">or</p> */}
                 <div className="h-px bg-gray-700 w-1/2" />
               </div>
               <Button
